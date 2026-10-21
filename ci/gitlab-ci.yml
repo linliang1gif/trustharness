@@ -1,0 +1,73 @@
+# trustharness × GitLab CI
+#
+# 用法：把这个文件的内容并进项目的 .gitlab-ci.yml，或者
+#
+#   include:
+#     - local: trustharness/ci/gitlab-ci.yml
+#
+# 失败条件：信任度低于 TRUST_MIN_SCORE。执行有效性会给分数封顶——请求没打进
+# 被测系统的一轮（比如令牌过期，请求都拿到业务码 401），分数被压到接近 0，
+# 过不了任何像样的阈值。通过率再高也一样。
+#
+# 产物（门禁失败时照样保留）：
+#   trust-junit.xml   GitLab「测试」标签页和 MR 挂件直接读。判了通过但请求被挡回的
+#                     标 skipped，断言写错的标 skipped[测试缺陷]，环境问题标 error，
+#                     只有疑似真实缺陷和需人工复核的是 failure
+#   trust-summary.md  一页摘要：分数、各维度、失败该找谁
+#   trust.json        完整评分与逐条失败分诊
+#
+# 两种接法，按手里有什么选一种：
+#   trust-gate  已经有自己的执行器（pytest / newman / 平台导出）：
+#               把用例和执行结果导出成 JSON，交给 trustharness score
+#   trust-run   只有 OpenAPI 文档和一个测试环境：trustharness run 一条命令
+#               生成→自检→执行→分诊→评分。默认只发 GET/HEAD/OPTIONS
+
+variables:
+  TRUSTHARNESS_PIP: "git+https://github.com/linliang1gif/trustharness.git"
+  TRUST_MIN_SCORE: "70"
+  TRUST_CASES: "test-output/cases.json"
+  TRUST_RESULTS: "test-output/results.json"
+
+.trustharness:
+  image: python:3.11-slim
+  before_script:
+    - pip install --quiet "$TRUSTHARNESS_PIP"
+  artifacts:
+    when: always
+    expire_in: 30 days
+    reports:
+      junit: trust-junit.xml
+    paths:
+      - trust-junit.xml
+      - trust-summary.md
+      - trust.json
+
+trust-gate:
+  extends: .trustharness
+  stage: test
+  script:
+    - >
+      trustharness score
+      --cases "$TRUST_CASES"
+      --results "$TRUST_RESULTS"
+      --min-score "$TRUST_MIN_SCORE"
+      --junit trust-junit.xml
+      --summary trust-summary.md
+      --json > trust.json
+
+# trust-run:
+#   extends: .trustharness
+#   stage: test
+#   variables:
+#     TRUSTHARNESS_PIP: "./trustharness[run]"
+#     # TARGET_BASE_URL、TARGET_TOKEN 在 Settings → CI/CD → Variables 里配，勾选 Masked
+#   script:
+#     - >
+#       trustharness run
+#       --spec openapi.json
+#       --base-url "$TARGET_BASE_URL"
+#       --header "Authorization: Bearer $TARGET_TOKEN"
+#       --min-score "$TRUST_MIN_SCORE"
+#       --junit trust-junit.xml
+#       --summary trust-summary.md
+#       --json > trust.json

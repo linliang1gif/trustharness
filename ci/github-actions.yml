@@ -1,0 +1,75 @@
+# trustharness × GitHub Actions
+#
+# 用法：复制到 .github/workflows/trust-gate.yml
+#
+# 失败条件：信任度低于 TRUST_MIN_SCORE。执行有效性会给分数封顶——请求没打进
+# 被测系统的一轮（比如令牌过期），分数被压到接近 0，通过率再高也过不了。
+#
+# 摘要写进本次运行的 Summary 页；JUnit XML 和完整 JSON 作为产物保留。
+# GitHub 本身不渲染 JUnit，想在 PR 里逐条看，可以再接一个 JUnit reporter action
+# 读 trust-junit.xml——这里不替你选第三方 action。
+
+name: trust-gate
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  trust:
+    runs-on: ubuntu-latest
+    env:
+      TRUSTHARNESS_PIP: git+https://github.com/linliang1gif/trustharness.git
+      TRUST_MIN_SCORE: "70"
+      TRUST_CASES: test-output/cases.json
+      TRUST_RESULTS: test-output/results.json
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 安装 trustharness
+        run: pip install "$TRUSTHARNESS_PIP"
+
+      # ── 在这里跑你自己的测试，产出 $TRUST_CASES 和 $TRUST_RESULTS ──
+
+      - name: 信任度门禁
+        run: >
+          trustharness score
+          --cases "$TRUST_CASES"
+          --results "$TRUST_RESULTS"
+          --min-score "$TRUST_MIN_SCORE"
+          --junit trust-junit.xml
+          --summary trust-summary.md
+          --json > trust.json
+
+      # 只有 OpenAPI 和测试环境时，把上一步换成：
+      #   run: >
+      #     trustharness run
+      #     --spec openapi.json
+      #     --base-url "${{ vars.TARGET_BASE_URL }}"
+      #     --header "Authorization: Bearer ${{ secrets.TARGET_TOKEN }}"
+      #     --min-score "$TRUST_MIN_SCORE"
+      #     --junit trust-junit.xml
+      #     --summary trust-summary.md
+      #     --json > trust.json
+      # 安装那步相应改成 pip install "./trustharness[run]"
+
+      - name: 摘要写进运行页面
+        if: always()
+        run: |
+          if [ -f trust-summary.md ]; then cat trust-summary.md >> "$GITHUB_STEP_SUMMARY"; fi
+
+      - name: 保留报告
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: trust-report
+          path: |
+            trust-junit.xml
+            trust-summary.md
+            trust.json
+          if-no-files-found: ignore

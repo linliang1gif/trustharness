@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trustharness"
+version = "0.1.0"
+description = "测试可信度评测 harness —— 回答通过率回答不了的问题：这套测试跑出来的结论有多可信"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+keywords = ["testing", "test-quality", "api-testing", "evaluation", "harness"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Testing",
+    "Programming Language :: Python :: 3",
+]
+
+# 刻意保持零运行时依赖：本包要能装进任何项目而不引入冲突。
+dependencies = []
+
+[project.optional-dependencies]
+# 执行能力。核心包刻意保持零依赖，真实发请求才需要这些。
+run = ["httpx>=0.24", "jsonschema>=4"]
+dev = ["pytest>=7", "httpx>=0.24", "jsonschema>=4"]
+
+[project.scripts]
+trustharness = "trustharness.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

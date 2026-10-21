@@ -1,0 +1,957 @@
+[
+ {
+  "case_id": "ORD-001",
+  "status": "passed",
+  "error_message": null,
+  "response_snapshot": {
+   "status_code": 200,
+   "body": {
+    "code": 0,
+    "data": {
+     "page": 1,
+     "list": []
+    }
+   }
+  },
+  "assertion_details": [
+   {
+    "type": "status_code",
+    "path": null,
+    "operator": "in",
+    "expected": [
+     200
+    ],
+    "actual": 200,
+    "passed": true
+   }
+  ]
+ },
+ {
+  "case_id": "ORD-002",
+  "status": "passed",
+  "error_message": null,
+  "response_snapshot": {
+   "status_code": 200,
+   "body": {
+    "code": 0,
+    "data": {
+     "page": 1,
+     "list": []
+    }
+   }
+  },
+  "assertion_details": [
+   {
+    "type": "status_code",
+    "path": null,
+    "operator": "in",
+    "expected": [
+     200
+    ],
+    "actual": 200,
+    "passed": true
+   }
+  ]
+ },
+ {
+  "case_id": "ORD-003",
+  "status": "passed",
+  "error_message": null,
+  "response_snapshot": {
+   "status_code": 200,
+   "body": {
+    "code": 0,
+    "data": {
+     "page": 1,
+     "list": []
+    }
+   }
+  },
+  "assertion_details": [
+   {
+    "type": "status_code",
+    "path": null,
+    "operator": "in",
+    "expected": [
+     200
+    ],
+    "actual": 200,
+    "passed": true
+   }
+  ]
+ },
+ {
+  "case_id": "ORD-004",
+  "status": "passed",
+  "error_message": null,
+  "response_snapshot": {
+   "status_code": 200,
+   "body": {
+    "code": 0,
+    "data": {
+     "page": 1,
+     "list": []
+    }
+   }
+  },
+  "assertion_details": [
+   {
+    "type": "status_code",
+    "path": null,
+    "operator": "in",
+    "expected": [
+     200
+    ],
+    "actual": 200,
+    "passed": true
+   }
+  ]
+ },
+ {
+  "case_id": "ORD-005",
+  "status": "passed",
+  "error_message": null,
+  "response_snapshot": {
+   "status_code": 200,
+   "body": {
+    "code": 0,
+    "data": {
+     "page": 1,
+     "list": []
+    }
+   }
+  },
+  "assertion_details": [
+   {
+    "type": "status_code",
+    "path": null,
+    "operator": "in",
+    "expected": [
+     200
+    ],
+    "actual": 200,
+    "passed": true
+   }
+  ]
+ },
+ {
+  "case_id": "ORD-006",
+  "status": "passed",
+  "error_message": null,
+  "response_snapshot": {
+   "status_code": 200,
+   "body": {
+    "code": 0,
+    "data": {
+     "page": 1,
+     "list": []
+    }
+   }
+  },
+  "assertion_details": [
+   {
+    "type": "status_code",
+    "path": null,
+    "operator": "in",
+    "expected": [
+     200
+    ],
+    "actual": 200,
+    "passed": true
+   }
+  ]
+ },
+ {
+  "case_id": "ORD-007",
+  "status": "passed",
+  "error_message": null,
+  "response_snapshot": {
+   "status_code": 200,
+   "body": {
+    "code": 0,
+    "data": {
+     "page": 1,
+     "list": []
+    }
+   }
+  },
+  "assertion_details": [
+   {
+    "type": "status_code",
+    "path": null,
+    "operator": "in",
+    "expected": [
+     200
+    ],
+    "actual": 200,
+    "passed": true
+   }
+  ]
+ },
+ {
+  "case_id": "ORD-008",
+  "status": "passed",
+  "error_message": null,
+  "response_snapshot": {
+   "status_code": 200,
+   "body": {
+    "code": 0,
+    "data": {
+     "page": 1,
+     "list": []
+    }
+   }
+  },
+  "assertion_details": [
+   {
+    "type": "status_code",
+    "path": null,
+    "operator": "in",
+    "expected": [
+     200
+    ],
+    "actual": 200,
+    "passed": true
+   }
+  ]
+ },
+ {
+  "case_id": "ORD-009",
+  "status": "passed",
+  "error_message": null,
+  "response_snapshot": {
+   "status_code": 200,
+   "body": {
+    "code": 0,
+    "data": {
+     "page": 1,
+     "list": []
+    }
+   }
+  },
+  "assertion_details": [
+   {
+    "type": "status_code",
+    "path": null,
+    "operator": "in",
+    "expected": [
+     200
+    ],
+    "actual": 200,
+    "passed": true
+   }
+  ]
+ },
+ {
+  "case_id": "ORD-010",
+  "status": "passed",
+  "error_message": null,
+  "response_snapshot": {
+   "status_code": 200,
+   "body": {
+    "code": 0,
+    "data": {
+     "page": 1,
+     "list": []
+    }
+   }
+  },
+  "assertion_details": [
+   {
+    "type": "status_code",
+    "path": null,
+    "operator": "in",
+    "expected": [
+     200
+    ],
+    "actual": 200,
+    "passed": true
+   }
+  ]
+ },
+ {
+  "case_id": "ORD-011",
+  "status": "passed",
+  "error_message": null,
+  "response_snapshot": {
+   "status_code": 200,
+   "body": {
+    "code": 0,
+    "data": {
+     "page": 1,
+     "list": []
+    }
+   }
+  },
+  "assertion_details": [
+   {
+    "type": "status_code",
+    "path": null,
+    "operator": "in",
+    "expected": [
+     200
+    ],
+    "actual": 200,
+    "passed": true
+   }
+  ]
+ },
+ {
+  "case_id": "ORD-012",
+  "status": "passed",
+  "error_message": null,
+  "response_snapshot": {
+   "status_code": 200,
+   "body": {
+    "code": 0,
+    "data": {
+     "page": 1,
+     "list": []
+    }
+   }
+  },
+  "assertion_details": [
+   {
+    "type": "status_code",
+    "path": null,
+    "operator": "in",
+    "expected": [
+     200
+    ],
+    "actual": 200,
+    "passed": true
+   }
+  ]
+ },
+ {
+  "case_id": "ORD-013",
+  "status": "passed",
+  "error_message": null,
+  "response_snapshot": {
+   "status_code": 200,
+   "body": {
+    "code": 0,
+    "data": {
+     "page": 1,
+     "list": []
+    }
+   }
+  },
+  "assertion_details": [
+   {
+    "type": "status_code",
+    "path": null,
+    "operator": "in",
+    "expected": [
+     200
+    ],
+    "actual": 200,
+    "passed": true
+   }
+  ]
+ },
+ {
+  "case_id": "ORD-014",
+  "status": "passed",
+  "error_message": null,
+  "response_snapshot": {
+   "status_code": 200,
+   "body": {
+    "code": 0,
+    "data": {
+     "page": 1,
+     "list": []
+    }
+   }
+  },
+  "assertion_details": [
+   {
+    "type": "status_code",
+    "path": null,
+    "operator": "in",
+    "expected": [
+     200
+    ],
+    "actual": 200,
+    "passed": true
+   }
+  ]
+ },
+ {
+  "case_id": "ORD-015",
+  "status": "passed",
+  "error_message": null,
+  "response_snapshot": {
+   "status_code": 200,
+   "body": {
+    "code": 0,
+    "data": {
+     "page": 1,
+     "list": []
+    }
+   }
+  },
+  "assertion_details": [
+   {
+    "type": "status_code",
+    "path": null,
+    "operator": "in",
+    "expected": [
+     200
+    ],
+    "actual": 200,
+    "passed": true
+   }
+  ]
+ },
+ {
+  "case_id": "ORD-016",
+  "status": "passed",
+  "error_message": null,
+  "response_snapshot": {
+   "status_code": 200,
+   "body": {
+    "code": 0,
+    "data": {
+     "page": 1,
+     "list": []
+    }
+   }
+  },
+  "assertion_details": [
+   {
+    "type": "status_code",
+    "path": null,
+    "operator": "in",
+    "expected": [
+     200
+    ],
+    "actual": 200,
+    "passed": true
+   }
+  ]
+ },
+ {
+  "case_id": "ORD-017",
+  "status": "failed",
+  "error_message": null,
+  "response_snapshot": {
+   "status_code": 200,
+   "body": {
+    "code": 50000,
+    "message": "库存服务超时",
+    "data": null
+   }
+  },
+  "assertion_details": [
+   {
+    "type": "status_code",
+    "path": null,
+    "operator": "in",
+    "expected": [
+     200
+    ],
+    "actual": 200,
+    "passed": true
+   },
+   {
+    "type": "json_path",
+    "path": "code",
+    "operator": "in",
+    "expected": [
+     0
+    ],
+    "actual": 50000,
+    "passed": false
+   }
+  ]
+ },
+ {
+  "case_id": "ORD-018",
+  "status": "failed",
+  "error_message": null,
+  "response_snapshot": {
+   "status_code": 200,
+   "body": {
+    "code": 0,
+    "result": {
+     "id": 1018
+    }
+   }
+  },
+  "assertion_details": [
+   {
+    "type": "status_code",
+    "path": null,
+    "operator": "in",
+    "expected": [
+     200
+    ],
+    "actual": 200,
+    "passed": true
+   },
+   {
+    "type": "json_path",
+    "path": "code",
+    "operator": "in",
+    "expected": [
+     0
+    ],
+    "actual": null,
+    "passed": true
+   },
+   {
+    "type": "json_path",
+    "path": "data.total",
+    "operator": "exists",
+    "expected": true,
+    "actual": null,
+    "passed": false
+   }
+  ]
+ },
+ {
+  "case_id": "ORD-019",
+  "status": "passed",
+  "error_message": null,
+  "response_snapshot": {
+   "status_code": 200,
+   "body": {
+    "code": 0,
+    "data": {
+     "page": 1,
+     "list": []
+    }
+   }
+  },
+  "assertion_details": [
+   {
+    "type": "status_code",
+    "path": null,
+    "operator": "in",
+    "expected": [
+     200
+    ],
+    "actual": 200,
+    "passed": true
+   },
+   {
+    "type": "json_path",
+    "path": "code",
+    "operator": "in",
+    "expected": [
+     0
+    ],
+    "actual": null,
+    "passed": true
+   }
+  ]
+ },
+ {
+  "case_id": "ORD-020",
+  "status": "passed",
+  "error_message": null,
+  "response_snapshot": {
+   "status_code": 200,
+   "body": {
+    "code": 0,
+    "data": {
+     "page": 1,
+     "list": []
+    }
+   }
+  },
+  "assertion_details": [
+   {
+    "type": "status_code",
+    "path": null,
+    "operator": "in",
+    "expected": [
+     200
+    ],
+    "actual": 200,
+    "passed": true
+   },
+   {
+    "type": "json_path",
+    "path": "code",
+    "operator": "in",
+    "expected": [
+     0
+    ],
+    "actual": null,
+    "passed": true
+   }
+  ]
+ },
+ {
+  "case_id": "ORD-021",
+  "status": "failed",
+  "error_message": null,
+  "response_snapshot": {
+   "status_code": 200,
+   "body": {
+    "code": 0,
+    "data": {
+     "order_id": 88
+    }
+   }
+  },
+  "assertion_details": [
+   {
+    "type": "status_code",
+    "path": null,
+    "operator": "in",
+    "expected": [
+     200
+    ],
+    "actual": 200,
+    "passed": true
+   },
+   {
+    "type": "json_path",
+    "path": "code",
+    "operator": "not_in",
+    "expected": [
+     0
+    ],
+    "actual": 0,
+    "passed": false
+   }
+  ]
+ },
+ {
+  "case_id": "ORD-022",
+  "status": "passed",
+  "error_message": null,
+  "response_snapshot": {
+   "status_code": 200,
+   "body": {
+    "code": 40001,
+    "message": "amount 必须大于 0"
+   }
+  },
+  "assertion_details": [
+   {
+    "type": "status_code",
+    "path": null,
+    "operator": "in",
+    "expected": [
+     200
+    ],
+    "actual": 200,
+    "passed": true
+   },
+   {
+    "type": "json_path",
+    "path": "code",
+    "operator": "not_in",
+    "expected": [
+     0
+    ],
+    "actual": null,
+    "passed": true
+   }
+  ]
+ },
+ {
+  "case_id": "ORD-023",
+  "status": "passed",
+  "error_message": null,
+  "response_snapshot": {
+   "status_code": 200,
+   "body": {
+    "code": 40001,
+    "message": "amount 必须大于 0"
+   }
+  },
+  "assertion_details": [
+   {
+    "type": "status_code",
+    "path": null,
+    "operator": "in",
+    "expected": [
+     200
+    ],
+    "actual": 200,
+    "passed": true
+   },
+   {
+    "type": "json_path",
+    "path": "code",
+    "operator": "not_in",
+    "expected": [
+     0
+    ],
+    "actual": null,
+    "passed": true
+   }
+  ]
+ },
+ {
+  "case_id": "ORD-024",
+  "status": "passed",
+  "error_message": null,
+  "response_snapshot": {
+   "status_code": 200,
+   "body": {
+    "code": 40001,
+    "message": "amount 必须大于 0"
+   }
+  },
+  "assertion_details": [
+   {
+    "type": "status_code",
+    "path": null,
+    "operator": "in",
+    "expected": [
+     200
+    ],
+    "actual": 200,
+    "passed": true
+   },
+   {
+    "type": "json_path",
+    "path": "code",
+    "operator": "not_in",
+    "expected": [
+     0
+    ],
+    "actual": null,
+    "passed": true
+   }
+  ]
+ },
+ {
+  "case_id": "ORD-025",
+  "status": "passed",
+  "error_message": null,
+  "response_snapshot": {
+   "status_code": 200,
+   "body": {
+    "code": 40001,
+    "message": "amount 必须大于 0"
+   }
+  },
+  "assertion_details": [
+   {
+    "type": "status_code",
+    "path": null,
+    "operator": "in",
+    "expected": [
+     200
+    ],
+    "actual": 200,
+    "passed": true
+   },
+   {
+    "type": "json_path",
+    "path": "code",
+    "operator": "not_in",
+    "expected": [
+     0
+    ],
+    "actual": null,
+    "passed": true
+   }
+  ]
+ },
+ {
+  "case_id": "ORD-026",
+  "status": "passed",
+  "error_message": null,
+  "response_snapshot": {
+   "status_code": 200,
+   "body": {
+    "code": 40001,
+    "message": "amount 必须大于 0"
+   }
+  },
+  "assertion_details": [
+   {
+    "type": "status_code",
+    "path": null,
+    "operator": "in",
+    "expected": [
+     200
+    ],
+    "actual": 200,
+    "passed": true
+   },
+   {
+    "type": "json_path",
+    "path": "code",
+    "operator": "not_in",
+    "expected": [
+     0
+    ],
+    "actual": null,
+    "passed": true
+   }
+  ]
+ },
+ {
+  "case_id": "ORD-027",
+  "status": "passed",
+  "error_message": null,
+  "response_snapshot": {
+   "status_code": 200,
+   "body": {
+    "code": 40001,
+    "message": "amount 必须大于 0"
+   }
+  },
+  "assertion_details": [
+   {
+    "type": "status_code",
+    "path": null,
+    "operator": "in",
+    "expected": [
+     200
+    ],
+    "actual": 200,
+    "passed": true
+   },
+   {
+    "type": "json_path",
+    "path": "code",
+    "operator": "not_in",
+    "expected": [
+     0
+    ],
+    "actual": null,
+    "passed": true
+   }
+  ]
+ },
+ {
+  "case_id": "ORD-028",
+  "status": "passed",
+  "error_message": null,
+  "response_snapshot": {
+   "status_code": 200,
+   "body": {
+    "code": 40001,
+    "message": "amount 必须大于 0"
+   }
+  },
+  "assertion_details": [
+   {
+    "type": "status_code",
+    "path": null,
+    "operator": "in",
+    "expected": [
+     200
+    ],
+    "actual": 200,
+    "passed": true
+   },
+   {
+    "type": "json_path",
+    "path": "code",
+    "operator": "not_in",
+    "expected": [
+     0
+    ],
+    "actual": null,
+    "passed": true
+   }
+  ]
+ },
+ {
+  "case_id": "ORD-029",
+  "status": "passed",
+  "error_message": null,
+  "response_snapshot": {
+   "status_code": 200,
+   "body": {
+    "code": 401,
+    "message": "未登录"
+   }
+  },
+  "assertion_details": [
+   {
+    "type": "json_path",
+    "path": "code",
+    "operator": "in",
+    "expected": [
+     401
+    ],
+    "actual": null,
+    "passed": true
+   }
+  ]
+ },
+ {
+  "case_id": "ORD-030",
+  "status": "passed",
+  "error_message": null,
+  "response_snapshot": {
+   "status_code": 200,
+   "body": {
+    "code": 401,
+    "message": "未登录"
+   }
+  },
+  "assertion_details": [
+   {
+    "type": "json_path",
+    "path": "code",
+    "operator": "in",
+    "expected": [
+     401
+    ],
+    "actual": null,
+    "passed": true
+   }
+  ]
+ },
+ {
+  "case_id": "ORD-031",
+  "status": "passed",
+  "error_message": null,
+  "response_snapshot": {
+   "status_code": 200,
+   "body": {
+    "code": 401,
+    "message": "未登录"
+   }
+  },
+  "assertion_details": [
+   {
+    "type": "json_path",
+    "path": "code",
+    "operator": "in",
+    "expected": [
+     401
+    ],
+    "actual": null,
+    "passed": true
+   }
+  ]
+ },
+ {
+  "case_id": "ORD-032",
+  "status": "passed",
+  "error_message": null,
+  "response_snapshot": {
+   "status_code": 200,
+   "body": {
+    "code": 401,
+    "message": "未登录"
+   }
+  },
+  "assertion_details": [
+   {
+    "type": "json_path",
+    "path": "code",
+    "operator": "in",
+    "expected": [
+     401
+    ],
+    "actual": null,
+    "passed": true
+   }
+  ]
+ }
+]

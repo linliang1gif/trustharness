@@ -1,0 +1,794 @@
+[
+ {
+  "id": "ORD-001",
+  "title": "订单列表第 1 页",
+  "data_type": "valid",
+  "expected_behavior": "success",
+  "execution_config": {
+   "method": "GET",
+   "url": "/api/orders",
+   "params": {
+    "page": 1
+   }
+  },
+  "assertions": [
+   {
+    "type": "status_code",
+    "operator": "in",
+    "expected": [
+     200
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ORD-002",
+  "title": "订单列表第 2 页",
+  "data_type": "valid",
+  "expected_behavior": "success",
+  "execution_config": {
+   "method": "GET",
+   "url": "/api/orders",
+   "params": {
+    "page": 2
+   }
+  },
+  "assertions": [
+   {
+    "type": "status_code",
+    "operator": "in",
+    "expected": [
+     200
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ORD-003",
+  "title": "订单列表第 3 页",
+  "data_type": "valid",
+  "expected_behavior": "success",
+  "execution_config": {
+   "method": "GET",
+   "url": "/api/orders",
+   "params": {
+    "page": 3
+   }
+  },
+  "assertions": [
+   {
+    "type": "status_code",
+    "operator": "in",
+    "expected": [
+     200
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ORD-004",
+  "title": "订单列表第 4 页",
+  "data_type": "valid",
+  "expected_behavior": "success",
+  "execution_config": {
+   "method": "GET",
+   "url": "/api/orders",
+   "params": {
+    "page": 4
+   }
+  },
+  "assertions": [
+   {
+    "type": "status_code",
+    "operator": "in",
+    "expected": [
+     200
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ORD-005",
+  "title": "订单列表第 5 页",
+  "data_type": "valid",
+  "expected_behavior": "success",
+  "execution_config": {
+   "method": "GET",
+   "url": "/api/orders",
+   "params": {
+    "page": 5
+   }
+  },
+  "assertions": [
+   {
+    "type": "status_code",
+    "operator": "in",
+    "expected": [
+     200
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ORD-006",
+  "title": "订单列表第 6 页",
+  "data_type": "valid",
+  "expected_behavior": "success",
+  "execution_config": {
+   "method": "GET",
+   "url": "/api/orders",
+   "params": {
+    "page": 6
+   }
+  },
+  "assertions": [
+   {
+    "type": "status_code",
+    "operator": "in",
+    "expected": [
+     200
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ORD-007",
+  "title": "订单列表第 7 页",
+  "data_type": "valid",
+  "expected_behavior": "success",
+  "execution_config": {
+   "method": "GET",
+   "url": "/api/orders",
+   "params": {
+    "page": 7
+   }
+  },
+  "assertions": [
+   {
+    "type": "status_code",
+    "operator": "in",
+    "expected": [
+     200
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ORD-008",
+  "title": "订单列表第 8 页",
+  "data_type": "valid",
+  "expected_behavior": "success",
+  "execution_config": {
+   "method": "GET",
+   "url": "/api/orders",
+   "params": {
+    "page": 8
+   }
+  },
+  "assertions": [
+   {
+    "type": "status_code",
+    "operator": "in",
+    "expected": [
+     200
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ORD-009",
+  "title": "订单列表第 9 页",
+  "data_type": "valid",
+  "expected_behavior": "success",
+  "execution_config": {
+   "method": "GET",
+   "url": "/api/orders",
+   "params": {
+    "page": 9
+   }
+  },
+  "assertions": [
+   {
+    "type": "status_code",
+    "operator": "in",
+    "expected": [
+     200
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ORD-010",
+  "title": "订单列表第 10 页",
+  "data_type": "valid",
+  "expected_behavior": "success",
+  "execution_config": {
+   "method": "GET",
+   "url": "/api/orders",
+   "params": {
+    "page": 10
+   }
+  },
+  "assertions": [
+   {
+    "type": "status_code",
+    "operator": "in",
+    "expected": [
+     200
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ORD-011",
+  "title": "订单列表第 11 页",
+  "data_type": "valid",
+  "expected_behavior": "success",
+  "execution_config": {
+   "method": "GET",
+   "url": "/api/orders",
+   "params": {
+    "page": 11
+   }
+  },
+  "assertions": [
+   {
+    "type": "status_code",
+    "operator": "in",
+    "expected": [
+     200
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ORD-012",
+  "title": "订单列表第 12 页",
+  "data_type": "valid",
+  "expected_behavior": "success",
+  "execution_config": {
+   "method": "GET",
+   "url": "/api/orders",
+   "params": {
+    "page": 12
+   }
+  },
+  "assertions": [
+   {
+    "type": "status_code",
+    "operator": "in",
+    "expected": [
+     200
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ORD-013",
+  "title": "订单列表第 13 页",
+  "data_type": "valid",
+  "expected_behavior": "success",
+  "execution_config": {
+   "method": "GET",
+   "url": "/api/orders",
+   "params": {
+    "page": 13
+   }
+  },
+  "assertions": [
+   {
+    "type": "status_code",
+    "operator": "in",
+    "expected": [
+     200
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ORD-014",
+  "title": "订单列表第 14 页",
+  "data_type": "valid",
+  "expected_behavior": "success",
+  "execution_config": {
+   "method": "GET",
+   "url": "/api/orders",
+   "params": {
+    "page": 14
+   }
+  },
+  "assertions": [
+   {
+    "type": "status_code",
+    "operator": "in",
+    "expected": [
+     200
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ORD-015",
+  "title": "订单列表第 15 页",
+  "data_type": "valid",
+  "expected_behavior": "success",
+  "execution_config": {
+   "method": "GET",
+   "url": "/api/orders",
+   "params": {
+    "page": 15
+   }
+  },
+  "assertions": [
+   {
+    "type": "status_code",
+    "operator": "in",
+    "expected": [
+     200
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ORD-016",
+  "title": "订单列表第 16 页",
+  "data_type": "valid",
+  "expected_behavior": "success",
+  "execution_config": {
+   "method": "GET",
+   "url": "/api/orders",
+   "params": {
+    "page": 16
+   }
+  },
+  "assertions": [
+   {
+    "type": "status_code",
+    "operator": "in",
+    "expected": [
+     200
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ORD-017",
+  "title": "订单详情 #17",
+  "data_type": "valid",
+  "expected_behavior": "success",
+  "execution_config": {
+   "method": "GET",
+   "url": "/api/orders/1017"
+  },
+  "assertions": [
+   {
+    "type": "status_code",
+    "operator": "in",
+    "expected": [
+     200
+    ]
+   },
+   {
+    "type": "json_path",
+    "path": "code",
+    "operator": "in",
+    "expected": [
+     0
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ORD-018",
+  "title": "订单详情 #18",
+  "data_type": "valid",
+  "expected_behavior": "success",
+  "execution_config": {
+   "method": "GET",
+   "url": "/api/orders/1018"
+  },
+  "assertions": [
+   {
+    "type": "status_code",
+    "operator": "in",
+    "expected": [
+     200
+    ]
+   },
+   {
+    "type": "json_path",
+    "path": "code",
+    "operator": "in",
+    "expected": [
+     0
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ORD-019",
+  "title": "订单详情 #19",
+  "data_type": "valid",
+  "expected_behavior": "success",
+  "execution_config": {
+   "method": "GET",
+   "url": "/api/orders/1019"
+  },
+  "assertions": [
+   {
+    "type": "status_code",
+    "operator": "in",
+    "expected": [
+     200
+    ]
+   },
+   {
+    "type": "json_path",
+    "path": "code",
+    "operator": "in",
+    "expected": [
+     0
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ORD-020",
+  "title": "订单详情 #20",
+  "data_type": "valid",
+  "expected_behavior": "success",
+  "execution_config": {
+   "method": "GET",
+   "url": "/api/orders/1020"
+  },
+  "assertions": [
+   {
+    "type": "status_code",
+    "operator": "in",
+    "expected": [
+     200
+    ]
+   },
+   {
+    "type": "json_path",
+    "path": "code",
+    "operator": "in",
+    "expected": [
+     0
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ORD-021",
+  "title": "下单金额非法 amount=-21",
+  "data_type": "invalid",
+  "expected_behavior": "client_error",
+  "execution_config": {
+   "method": "POST",
+   "url": "/api/orders",
+   "body": {
+    "sku": "A-1",
+    "amount": -21
+   }
+  },
+  "assertions": [
+   {
+    "type": "status_code",
+    "operator": "in",
+    "expected": [
+     200
+    ]
+   },
+   {
+    "type": "json_path",
+    "path": "code",
+    "operator": "not_in",
+    "expected": [
+     0
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ORD-022",
+  "title": "下单金额非法 amount=-22",
+  "data_type": "invalid",
+  "expected_behavior": "client_error",
+  "execution_config": {
+   "method": "POST",
+   "url": "/api/orders",
+   "body": {
+    "sku": "A-1",
+    "amount": -22
+   }
+  },
+  "assertions": [
+   {
+    "type": "status_code",
+    "operator": "in",
+    "expected": [
+     200
+    ]
+   },
+   {
+    "type": "json_path",
+    "path": "code",
+    "operator": "not_in",
+    "expected": [
+     0
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ORD-023",
+  "title": "下单金额非法 amount=-23",
+  "data_type": "invalid",
+  "expected_behavior": "client_error",
+  "execution_config": {
+   "method": "POST",
+   "url": "/api/orders",
+   "body": {
+    "sku": "A-1",
+    "amount": -23
+   }
+  },
+  "assertions": [
+   {
+    "type": "status_code",
+    "operator": "in",
+    "expected": [
+     200
+    ]
+   },
+   {
+    "type": "json_path",
+    "path": "code",
+    "operator": "not_in",
+    "expected": [
+     0
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ORD-024",
+  "title": "下单金额非法 amount=-24",
+  "data_type": "invalid",
+  "expected_behavior": "client_error",
+  "execution_config": {
+   "method": "POST",
+   "url": "/api/orders",
+   "body": {
+    "sku": "A-1",
+    "amount": -24
+   }
+  },
+  "assertions": [
+   {
+    "type": "status_code",
+    "operator": "in",
+    "expected": [
+     200
+    ]
+   },
+   {
+    "type": "json_path",
+    "path": "code",
+    "operator": "not_in",
+    "expected": [
+     0
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ORD-025",
+  "title": "下单金额非法 amount=-25",
+  "data_type": "invalid",
+  "expected_behavior": "client_error",
+  "execution_config": {
+   "method": "POST",
+   "url": "/api/orders",
+   "body": {
+    "sku": "A-1",
+    "amount": -25
+   }
+  },
+  "assertions": [
+   {
+    "type": "status_code",
+    "operator": "in",
+    "expected": [
+     200
+    ]
+   },
+   {
+    "type": "json_path",
+    "path": "code",
+    "operator": "not_in",
+    "expected": [
+     0
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ORD-026",
+  "title": "下单金额非法 amount=-26",
+  "data_type": "invalid",
+  "expected_behavior": "client_error",
+  "execution_config": {
+   "method": "POST",
+   "url": "/api/orders",
+   "body": {
+    "sku": "A-1",
+    "amount": -26
+   }
+  },
+  "assertions": [
+   {
+    "type": "status_code",
+    "operator": "in",
+    "expected": [
+     200
+    ]
+   },
+   {
+    "type": "json_path",
+    "path": "code",
+    "operator": "not_in",
+    "expected": [
+     0
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ORD-027",
+  "title": "下单金额非法 amount=-27",
+  "data_type": "invalid",
+  "expected_behavior": "client_error",
+  "execution_config": {
+   "method": "POST",
+   "url": "/api/orders",
+   "body": {
+    "sku": "A-1",
+    "amount": -27
+   }
+  },
+  "assertions": [
+   {
+    "type": "status_code",
+    "operator": "in",
+    "expected": [
+     200
+    ]
+   },
+   {
+    "type": "json_path",
+    "path": "code",
+    "operator": "not_in",
+    "expected": [
+     0
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ORD-028",
+  "title": "下单金额非法 amount=-28",
+  "data_type": "invalid",
+  "expected_behavior": "client_error",
+  "execution_config": {
+   "method": "POST",
+   "url": "/api/orders",
+   "body": {
+    "sku": "A-1",
+    "amount": -28
+   }
+  },
+  "assertions": [
+   {
+    "type": "status_code",
+    "operator": "in",
+    "expected": [
+     200
+    ]
+   },
+   {
+    "type": "json_path",
+    "path": "code",
+    "operator": "not_in",
+    "expected": [
+     0
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ORD-029",
+  "title": "未带令牌访问订单列表",
+  "data_type": "auth_missing",
+  "expected_behavior": "client_error",
+  "execution_config": {
+   "method": "GET",
+   "url": "/api/orders",
+   "headers": {}
+  },
+  "assertions": [
+   {
+    "type": "json_path",
+    "path": "code",
+    "operator": "in",
+    "expected": [
+     401
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ORD-030",
+  "title": "未带令牌访问订单列表",
+  "data_type": "auth_missing",
+  "expected_behavior": "client_error",
+  "execution_config": {
+   "method": "GET",
+   "url": "/api/orders",
+   "headers": {}
+  },
+  "assertions": [
+   {
+    "type": "json_path",
+    "path": "code",
+    "operator": "in",
+    "expected": [
+     401
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ORD-031",
+  "title": "未带令牌访问订单列表",
+  "data_type": "auth_missing",
+  "expected_behavior": "client_error",
+  "execution_config": {
+   "method": "GET",
+   "url": "/api/orders",
+   "headers": {}
+  },
+  "assertions": [
+   {
+    "type": "json_path",
+    "path": "code",
+    "operator": "in",
+    "expected": [
+     401
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ORD-032",
+  "title": "未带令牌访问订单列表",
+  "data_type": "auth_missing",
+  "expected_behavior": "client_error",
+  "execution_config": {
+   "method": "GET",
+   "url": "/api/orders",
+   "headers": {}
+  },
+  "assertions": [
+   {
+    "type": "json_path",
+    "path": "code",
+    "operator": "in",
+    "expected": [
+     401
+    ]
+   }
+  ]
+ }
+]

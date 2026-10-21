@@ -1,0 +1,9 @@
+# 构建 Python 包时仅需源码与打包元数据。
+build/
+**/__pycache__/
+**/*.pyc
+.pytest_cache/
+tests/
+examples/
+ci/
+*.egg-info/
